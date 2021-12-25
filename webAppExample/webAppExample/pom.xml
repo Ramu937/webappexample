@@ -21,12 +21,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-	<dependency>
-     <groupId>org.apache.tomcat.maven</groupId>
-     <artifactId>tomcat-maven-plugin</artifactId>
-     <version>2.3-SNAPSHOT</version>
-     <type>pom</type>
-   </dependency>
+	
 	<build>
 		<finalName>webappExample</finalName>
 		
@@ -43,16 +38,7 @@
 			</container>
 		</configuration>
 	</plugin>
-	<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-war-plugin</artifactId>
-		<version>3.3.1</version>
-	</plugin>
-<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-compiler-plugin</artifactId>
-		<version>3.8.1</version>
-</plugin>
+	
  			<!-- Maven Plugin for Jetty -->
 <!-- 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
